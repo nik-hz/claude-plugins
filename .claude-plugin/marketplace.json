@@ -1,24 +1,22 @@
 {
-  "name": "nik-hz-plugins",
+  "name": "nik-hz",
+  "description": "Claude Code plugins by nik-hz",
+  "version": "0.1.0",
   "owner": {
     "name": "nik-hz"
   },
   "plugins": [
     {
       "name": "sigil",
-      "source": {
-        "source": "github",
-        "repo": "nik-hz/sigil"
-      },
-      "description": "Hash-anchored provenance tracking for Python functions"
+      "source": "./sigil",
+      "description": "Hash-anchored provenance tracking for Python functions",
+      "version": "0.1.1"
     },
     {
       "name": "perpetual",
-      "source": {
-        "source": "github",
-        "repo": "nik-hz/perpetual-research-plugin"
-      },
-      "description": "Autonomous research agent — experiment tracking, hypothesis management, persistent memory"
+      "source": "./perpetual",
+      "description": "Autonomous research agent — experiment tracking, hypothesis management, persistent memory",
+      "version": "0.1.0"
     }
   ]
 }

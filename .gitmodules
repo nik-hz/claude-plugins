@@ -1,0 +1,6 @@
+[submodule "sigil"]
+	path = sigil
+	url = https://github.com/nik-hz/sigil.git
+[submodule "perpetual"]
+	path = perpetual
+	url = https://github.com/nik-hz/perpetual-research-plugin.git
