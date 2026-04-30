@@ -1,0 +1,24 @@
+{
+  "name": "nik-hz-plugins",
+  "owner": {
+    "name": "nik-hz"
+  },
+  "plugins": [
+    {
+      "name": "sigil",
+      "source": {
+        "source": "github",
+        "repo": "nik-hz/sigil"
+      },
+      "description": "Hash-anchored provenance tracking for Python functions"
+    },
+    {
+      "name": "perpetual",
+      "source": {
+        "source": "github",
+        "repo": "nik-hz/perpetual-research-plugin"
+      },
+      "description": "Autonomous research agent — experiment tracking, hypothesis management, persistent memory"
+    }
+  ]
+}
